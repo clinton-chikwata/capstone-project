@@ -16,7 +16,7 @@ dimensions = [
 ]
 
 
-conn = psycopg2.connect("host=127.0.0.1 dbname=usamigrations user=postgres password=secret")
+conn = psycopg2.connect("host=127.0.0.1 dbname=usa_migrations user=postgres password=secret")
 cur = conn.cursor()
 
 logging.basicConfig(filename='log.text', level=logging.INFO)
